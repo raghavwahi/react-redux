@@ -1,13 +1,7 @@
 import React from "react";
 
-import Layout from "../Layout/Layout";
-
 const NotFoundPage = () => {
-  return (
-    <Layout>
-      <h1>ERROR PAGE NOT FOUND</h1>
-    </Layout>
-  );
+  return <h1>ERROR PAGE NOT FOUND</h1>;
 };
 
 export default NotFoundPage;

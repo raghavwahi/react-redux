@@ -4,7 +4,7 @@ class Enquiry extends React.Component {
   render() {
     return (
       <>
-        <div>
+        <div className="enquiry">
           <p>NAME: {this.props.name}</p>
           <p>EMAIL: {this.props.email}</p>
           <p>COURSE: {this.props.course_title}</p>
