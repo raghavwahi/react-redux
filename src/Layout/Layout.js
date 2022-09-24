@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import classes from "./Layout.module.css";
+
 const Layout = (props) => {
   return (
     <>
-      <header>
+      <header className={classes.header}>
         <Link to="/">Courses</Link>
         <Link to="/enquries">Enquries</Link>
         <hr />
